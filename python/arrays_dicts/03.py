@@ -16,3 +16,12 @@ d1 = {i.lower() : i for i in arr2}
 print('d1: ' + str(d1))
 
 # list map, filter
+# map: apply same function to every element in array
+# filter: generates list of elements from array that meat requirement
+
+a = list(map(lambda x: x**2, arr1))
+b = list(filter(lambda x: x % 4 == 0, arr1))
+
+print('a: ' + str(a))
+print('b: ' + str(b))
+
